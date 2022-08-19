@@ -24,7 +24,7 @@
 #undef dbg_printf
 //#define dbg_printf(...) printf(__VA_ARGS__)
 #define dbg_printf(...) 
-#define CACHEBLOCKSZ 64
+#define CACHEBLOCKSZ 32
 #define esp32_DEFAULT_MAXNAMESIZE 100
 
 // From https://stackoverflow.com/questions/19758270/read-varint-from-linux-sockets#19760246
