@@ -18,6 +18,7 @@
 #include <esp_system.h>
 #include <rom/ets_sys.h>
 #include <sys/stat.h>
+#include "esp_random.h"
 
 #include "shox96_0_2.h"
 
